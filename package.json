@@ -1,0 +1,17 @@
+{
+  "name": "jsbanco",
+  "version": "1.0.0",
+  "description": "Projeto de banco de dados com Node.js e SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
