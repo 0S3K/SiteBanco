@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const path = require('path');
 
 const app = express();
-app.use(bodyParser.json()); // Middleware para processar JSON
-app.use(express.static(__dirname)); // Serve os arquivos estáticos (HTML e CSS)
+app.use(bodyParser.json());
+app.use(express.static(__dirname));
 
 // Função para criar a tabela e inserir dados
 async function criarEPopularTabelaUsuario(nome, sobreNome, email, cpf) {
