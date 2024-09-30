@@ -21,6 +21,7 @@
 
             <label for="cpf">CPF:</label>
             <input type="text" id="cpf" name="cpf" required><br>
+            
 
             <button type="submit">Enviar</button>
         </form>
@@ -38,7 +39,7 @@
             const cpf = document.getElementById('cpf').value;
 
             // Envia os dados para o servidor
-            const response = await fetch('/enviarDados', {
+            const response = await fetch('http://localhost:3000/enviarDados', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -51,7 +52,7 @@
             if (result.success) {
                 alert('Dados inseridos com sucesso!');
             } else {
-                alert('Erro ao inserir os dados.');
+                alert(`Erro ao inserir os dados: ${result.message}`);
             }
         });
     </script>

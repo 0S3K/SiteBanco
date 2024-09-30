@@ -1,0 +1,16 @@
+Dependências: 
+    node -v:
+        Verificar se contém o node.
+
+    npm init -y:
+        Inicializar o node no arquivo.
+    
+    npm install express sqlite3 body-parser cors:
+        Baixar as bibliotecas.
+
+    node server.js:
+        Colocar no ar o servidor.
+
+    Depois inicializar o index.html para capturar as informações.
+
+
