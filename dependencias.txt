@@ -11,6 +11,12 @@ Dependências:
     node server.js:
         Colocar no ar o servidor.
 
+    npm install nodemailer:
+        Biblioteca para facilitar o envio para o email.
+    
+
     Depois inicializar o index.html para capturar as informações.
+
+
 
 
